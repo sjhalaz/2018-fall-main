@@ -230,6 +230,7 @@ def CNN_encoder(ids_, ns_, V, embed_dim, filters, kernel_sizes, hidden_dims,
 
     # Build a stack of fully-connected layers
     if hidden_dims:
+      h_ = h_ # replace with code for stack of fully-connected layers
     else:
       h_ = z_
 
